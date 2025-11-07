@@ -1,0 +1,73 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "88ee2523-58cf-458d-9497-9e8efc285881")
+	(paper "A4")
+	(lib_symbols)
+	(text "Make for one raspberry pi camera for v1.0\n"
+		(exclude_from_sim no)
+		(at 83.312 119.126 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5088eef1-d7c4-440d-b5d8-21df0cc5b673")
+	)
+	(hierarchical_label "CAM_SEL"
+		(shape input)
+		(at 43.18 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b945fe8-ad7e-4aa3-a8e8-295944d452b0")
+	)
+	(hierarchical_label "CAM_B (?)"
+		(shape input)
+		(at 43.18 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbbfebbf-c0fe-4f9a-ab62-6fab59db0a7e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 43.18 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd2f3e19-e6f4-4428-a20e-1e5e353d1707")
+	)
+	(hierarchical_label "5V_PI"
+		(shape input)
+		(at 43.18 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1b06655-aa34-49e9-ab6e-bdad4f924031")
+	)
+	(hierarchical_label "CAM_A"
+		(shape input)
+		(at 43.18 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e06f10db-4d5e-4e64-9f30-2eca479390c0")
+	)
+)
