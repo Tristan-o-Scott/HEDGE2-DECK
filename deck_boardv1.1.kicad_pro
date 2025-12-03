@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "deck_board.kicad_pro",
+    "filename": "deck_boardv1.1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -424,14 +424,6 @@
     [
       "9dadea64-6056-4d58-9d6d-a980455d899a",
       "inhibit_2"
-    ],
-    [
-      "9145e519-58b9-4165-b7da-7fc63e37bf0a",
-      "contacts"
-    ],
-    [
-      "0afb21cd-d925-4274-b1ca-2c5ea01b4f67",
-      "cameras"
     ]
   ],
   "text_variables": {}

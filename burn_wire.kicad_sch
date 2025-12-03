@@ -1361,6 +1361,16 @@
 		)
 		(uuid "d87adb1c-ada4-437f-94ec-4f0fa85400a3")
 	)
+	(text "LED on when Q5 is on (burn-wire active)."
+		(exclude_from_sim no)
+		(at 153.162 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db4f7f0f-07f8-44ad-8e35-84b58f5186f7")
+	)
 	(junction
 		(at 116.84 87.63)
 		(diameter 0)
@@ -1396,6 +1406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba443af3-3018-44d9-9839-ea69001132b4")
+	)
+	(junction
+		(at 116.84 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8438f80-40ca-429e-8ce2-1cdfc2607abb")
 	)
 	(wire
 		(pts
@@ -1466,6 +1482,16 @@
 			(type default)
 		)
 		(uuid "2b4fa899-935d-44bb-b3e1-b34e18db35c0")
+	)
+	(wire
+		(pts
+			(xy 116.84 78.74) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec6901d-9bc7-44f6-b9d8-c8f40d6f8773")
 	)
 	(wire
 		(pts
@@ -1579,6 +1605,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c425bd2-4ea4-4232-80a2-bb4552de19cc")
+	)
+	(wire
+		(pts
 			(xy 54.61 74.93) (xy 54.61 95.25)
 		)
 		(stroke
@@ -1649,6 +1685,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79a9d25-dcb1-4ff8-8cf0-e1691616e901")
+	)
+	(wire
+		(pts
 			(xy 68.58 82.55) (xy 74.93 82.55)
 		)
 		(stroke
@@ -1679,7 +1725,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 58.42) (xy 116.84 87.63)
+			(xy 140.97 78.74) (xy 148.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd82f5f-e41b-4a97-8abb-26c1be05cd4c")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1726,6 +1782,28 @@
 			(type default)
 		)
 		(uuid "ffa6b7fa-8328-4b7a-98d8-44e61db68cfb")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 148.59 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fd86a30-2059-456f-ab90-4d59c4465d3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4457 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "V_IN_28V"
 		(shape input)
@@ -1985,6 +2063,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 124.46 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "504df6b3-acef-4ad9-bac2-ec3bd02e210c")
+		(property "Reference" "R21"
+			(at 126.365 84.4551 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kohm"
+			(at 128.016 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.714 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22d8febb-bf6f-488f-8994-962ebf5b1146")
+		)
+		(pin "1"
+			(uuid "b91fcc04-df99-41b4-ba27-62f9fd360a07")
+		)
+		(instances
+			(project "deck_board"
+				(path "/0dd6c749-d328-44a2-b3d4-206fc5899db9/9a513996-12e6-4869-a836-62e374407735"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:Q_NPN_BEC")
 		(at 88.9 73.66 270)
 		(unit 1)
@@ -2056,7 +2203,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 50.8 0)
+		(at 137.16 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2065,7 +2212,7 @@
 		(fields_autoplaced yes)
 		(uuid "75b5bef7-2d1f-4c10-bc1e-a24ff9aefce3")
 		(property "Reference" "D7"
-			(at 125.4125 44.45 0)
+			(at 138.7475 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2220,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 125.4125 46.99 0)
+			(at 138.7475 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 50.8 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2237,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 50.8 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2246,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 50.8 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2255,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 50.8 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
