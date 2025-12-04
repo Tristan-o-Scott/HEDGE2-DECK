@@ -2612,7 +2612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R (100 ohm)"
+		(property "Value" "100 ohm"
 			(at 60.96 107.9499 0)
 			(effects
 				(font
@@ -2621,7 +2621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 59.436 106.934 90)
 			(effects
 				(font
@@ -2688,7 +2688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 64.77 52.07 0)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -2817,7 +2817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R (100 kohm)"
+		(property "Value" "100 kohm"
 			(at 72.39 58.4199 0)
 			(effects
 				(font
@@ -2826,7 +2826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 70.866 57.404 90)
 			(effects
 				(font
@@ -2896,7 +2896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.6752 49.53 0)
 			(effects
 				(font
@@ -3033,7 +3033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 103.886 125.984 90)
 			(effects
 				(font
@@ -3101,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 67.31 33.02 0)
 			(effects
 				(font
@@ -3172,7 +3172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 101.6 35.56 0)
 			(effects
 				(font
@@ -3239,7 +3239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 111.76 0)
 			(effects
 				(font
@@ -3307,7 +3307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 82.55 35.56 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 99.06 83.82 0)
 			(effects
 				(font
@@ -3445,7 +3445,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R (100 kohm)"
+		(property "Value" "100 kohm"
 			(at 60.96 118.1099 0)
 			(effects
 				(font
@@ -3454,7 +3454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 59.436 117.094 90)
 			(effects
 				(font
@@ -3524,7 +3524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 87.376 125.984 90)
 			(effects
 				(font
@@ -3592,7 +3592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 55.88 91.44 0)
 			(effects
 				(font
@@ -3663,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 83.82 109.22 0)
 			(effects
 				(font
@@ -3762,7 +3762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 44.45 37.338 90)
 			(effects
 				(font
@@ -3830,7 +3830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 83.566 84.836 90)
 			(effects
 				(font
@@ -3891,7 +3891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R (100 ohm)"
+		(property "Value" "100 ohm"
 			(at 72.39 48.2599 0)
 			(effects
 				(font
@@ -3900,7 +3900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 70.866 47.244 90)
 			(effects
 				(font

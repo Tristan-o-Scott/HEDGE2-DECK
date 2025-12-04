@@ -471,7 +471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 54.356 54.356 90)
 			(effects
 				(font
@@ -539,7 +539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 40.386 54.356 90)
 			(effects
 				(font
@@ -607,7 +607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 54.61 67.31 0)
 			(effects
 				(font
