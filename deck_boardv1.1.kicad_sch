@@ -7693,7 +7693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D-Sub 15 Pin Female Socket"
+		(property "Value" "D-Sub 15 Pin Male Socket"
 			(at 102.108 27.432 90)
 			(effects
 				(font
