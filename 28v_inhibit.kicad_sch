@@ -1847,9 +1847,9 @@
 		)
 		(uuid "196044af-b93a-4ad6-9ad3-eef0b04498ac")
 	)
-	(text "manual arming switch\n"
+	(text "manual arming switch\nRBF PIN\n"
 		(exclude_from_sim no)
-		(at 67.31 144.526 0)
+		(at 66.548 145.288 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1949,6 +1949,12 @@
 		(uuid "f6dbbff3-167b-4b51-8364-d4338b2d6e36")
 	)
 	(junction
+		(at 96.52 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fee4593-fde5-40a8-b1c3-044d88731ae7")
+	)
+	(junction
 		(at 52.07 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1997,6 +2003,12 @@
 		(uuid "6d6f19c3-a005-4c70-9f13-87e54fb1c518")
 	)
 	(junction
+		(at 96.52 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d811871-a7a6-4f37-b57f-51dccc4e4ed7")
+	)
+	(junction
 		(at 44.45 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2028,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 111.76) (xy 102.87 111.76)
+			(xy 91.44 111.76) (xy 96.52 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2188,6 +2200,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 129.54) (xy 96.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fee2894-30b4-4de2-a61a-085a55640fd1")
+	)
+	(wire
+		(pts
 			(xy 69.85 50.8) (xy 69.85 52.07)
 		)
 		(stroke
@@ -2278,7 +2300,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 132.08) (xy 102.87 132.08)
+			(xy 86.36 132.08) (xy 96.52 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2378,6 +2400,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 111.76) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80bc79e-d6f0-48b2-bab0-58514ab0bcf2")
+	)
+	(wire
+		(pts
 			(xy 92.71 49.53) (xy 92.71 62.23)
 		)
 		(stroke
@@ -2468,6 +2500,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 132.08) (xy 102.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6d3bb7-ad26-47bb-b706-07c36a4a0085")
+	)
+	(wire
+		(pts
 			(xy 52.07 35.56) (xy 52.07 41.91)
 		)
 		(stroke
@@ -2495,6 +2537,16 @@
 			(type default)
 		)
 		(uuid "ef7db1db-c759-4e8b-a551-8810997cfe47")
+	)
+	(wire
+		(pts
+			(xy 96.52 111.76) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a1a0af-f43c-4147-944b-5a7c7549de7a")
 	)
 	(wire
 		(pts
@@ -2612,7 +2664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 ohm"
+		(property "Value" "100Ω"
 			(at 60.96 107.9499 0)
 			(effects
 				(font
@@ -2680,8 +2732,8 @@
 				)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 59.944 55.626 0)
+		(property "Value" "BZT52B12"
+			(at 58.166 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 kohm"
+		(property "Value" "100kΩ"
 			(at 72.39 58.4199 0)
 			(effects
 				(font
@@ -2887,7 +2939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22 µF"
 			(at 96.52 46.9899 0)
 			(effects
 				(font
@@ -2955,7 +3007,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ33A"
+		(property "Value" "SMAJ36A"
 			(at 45.72 44.958 90)
 			(effects
 				(font
@@ -3024,7 +3076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 kohm"
+		(property "Value" "100kΩ"
 			(at 105.41 126.9999 0)
 			(effects
 				(font
@@ -3093,7 +3145,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_GSD"
+		(property "Value" "FQPF27P06"
 			(at 69.85 31.75 90)
 			(effects
 				(font
@@ -3164,7 +3216,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2µH"
 			(at 101.6 33.02 90)
 			(effects
 				(font
@@ -3231,7 +3283,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "BZT52B12"
 			(at 51.054 108.458 0)
 			(effects
 				(font
@@ -3299,7 +3351,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2µH"
 			(at 82.55 33.02 90)
 			(effects
 				(font
@@ -3445,7 +3497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 kohm"
+		(property "Value" "100kΩ"
 			(at 60.96 118.1099 0)
 			(effects
 				(font
@@ -3504,10 +3556,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f18e344-d0f3-4d60-8cc5-fd2eee930834")
 		(property "Reference" "R5"
-			(at 88.9 124.4599 0)
+			(at 78.994 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,8 +3566,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 kohm"
-			(at 88.9 126.9999 0)
+		(property "Value" "10kΩ"
+			(at 78.994 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3635,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_GSD"
+		(property "Value" "FQPF27P06"
 			(at 58.42 90.17 90)
 			(effects
 				(font
@@ -3638,6 +3689,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 96.52 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5b910df-2cb5-418d-a39b-f89c25aa9c06")
+		(property "Reference" "D9"
+			(at 92.456 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BZT52B12"
+			(at 92.71 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b931030d-2509-40b9-b1ea-b88f79220902")
+		)
+		(pin "2"
+			(uuid "696d57e4-e823-4e8c-b2a5-6d3309b6c43a")
+		)
+		(instances
+			(project "deck_boardv1.1"
+				(path "/0dd6c749-d328-44a2-b3d4-206fc5899db9/1f8cf09f-ba90-4e4f-a442-1634942ef321"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 86.36 114.3 90)
 		(unit 1)
@@ -3655,7 +3773,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2N7000"
 			(at 86.36 107.95 90)
 			(effects
 				(font
@@ -3753,8 +3871,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 46.482 32.766 90)
+		(property "Value" "045101.5"
+			(at 48.006 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3940,7 @@
 				)
 			)
 		)
-		(property "Value" "10 kohm"
+		(property "Value" "10kΩ"
 			(at 83.82 80.01 90)
 			(effects
 				(font
@@ -3891,7 +4009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 ohm"
+		(property "Value" "100Ω"
 			(at 72.39 48.2599 0)
 			(effects
 				(font
