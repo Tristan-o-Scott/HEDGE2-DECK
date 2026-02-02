@@ -469,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "deck_boardv1.3.kicad_pro",
+    "filename": "deck_boardv1.4.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -508,7 +508,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "deck_boardCDR.step",
+      "step": "DeckBoard.step",
       "svg": "",
       "vrml": ""
     },
@@ -635,14 +635,6 @@
     [
       "9a513996-12e6-4869-a836-62e374407735",
       "Burn-Wire Circuit"
-    ],
-    [
-      "1f8cf09f-ba90-4e4f-a442-1634942ef321",
-      "28v_inhibit"
-    ],
-    [
-      "9dadea64-6056-4d58-9d6d-a980455d899a",
-      "inhibit_2"
     ]
   ],
   "text_variables": {}

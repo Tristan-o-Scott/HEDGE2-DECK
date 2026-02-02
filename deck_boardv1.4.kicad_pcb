@@ -3807,7 +3807,7 @@
 			(net 24 "Net-(Q1-S)")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "ee38be80-5b35-4ae0-930a-e6afbf88fc4a")
+			(uuid "0b90b86e-d2c2-4e41-926b-befd0173bc00")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3)
@@ -6969,7 +6969,7 @@
 			(net 3 "/28v_inhibit/28V_Post_Inhibit")
 			(pinfunction "S")
 			(pintype "passive")
-			(uuid "83c6ed6e-97f2-42a4-89a4-5a0277417f21")
+			(uuid "a556856a-f6a8-45a6-aefe-c8806e9e9296")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3)
@@ -9199,7 +9199,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "cf64ba59-e90f-42ea-a9c6-cdd40ff3ce5a")
+			(uuid "56c02134-8b6a-4c0f-83f1-313499e4b0b6")
 		)
 		(pad "17" thru_hole circle
 			(at -0.5505 1.1475)
@@ -9211,7 +9211,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "cf64ba59-e90f-42ea-a9c6-cdd40ff3ce5a")
+			(uuid "fd728a3c-0206-488e-8876-329c9c090030")
 		)
 		(pad "17" smd rect
 			(at 0 0)
@@ -9222,7 +9222,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "cf64ba59-e90f-42ea-a9c6-cdd40ff3ce5a")
+			(uuid "8e260b64-3c5b-45ce-8d1f-68c302b592a6")
 		)
 		(pad "17" smd rect
 			(at 0 0)
@@ -9233,7 +9233,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "cf64ba59-e90f-42ea-a9c6-cdd40ff3ce5a")
+			(uuid "e869e262-119d-4a3e-9a6b-a8cb820975aa")
 		)
 		(pad "17" thru_hole circle
 			(at 0.5505 -1.1475)
@@ -9245,7 +9245,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "cf64ba59-e90f-42ea-a9c6-cdd40ff3ce5a")
+			(uuid "a0b0415a-9551-4e0b-b2b7-fb73faa09834")
 		)
 		(pad "17" thru_hole circle
 			(at 0.5505 0)
@@ -9257,7 +9257,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "cf64ba59-e90f-42ea-a9c6-cdd40ff3ce5a")
+			(uuid "7816bd19-f161-4683-8deb-65d661c86f44")
 		)
 		(pad "17" thru_hole circle
 			(at 0.5505 1.1475)
@@ -9269,7 +9269,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "cf64ba59-e90f-42ea-a9c6-cdd40ff3ce5a")
+			(uuid "4df52e01-cdbd-4810-91b7-b7a4b5cfc8d6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm.step"

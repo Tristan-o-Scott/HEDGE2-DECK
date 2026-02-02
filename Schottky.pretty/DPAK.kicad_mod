@@ -1,0 +1,50 @@
+
+(footprint DPAK (layer F.Cu) (tedit 697FDC1C)
+  (descr "")
+  (attr smd)
+  (fp_text reference REF** (at -4.0386 -0.127 900) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (fp_text value DPAK (at 4.0386 0.6604 900) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (pad 2 smd rect (at 0.0 2.54) (size 6.096 6.096) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 1 smd rect (at 2.286 -5.08) (size 1.651 3.81) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 3 smd rect (at -2.286 -5.08) (size 1.651 3.81) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_line (start -3.175 -3.175) (end 3.175 -3.175) (layer F.SilkS) (width 0.127))
+  (fp_line (start 3.175 -3.175) (end 3.175 3.175) (layer F.SilkS) (width 0.127))
+  (fp_line (start 3.175 3.175) (end -3.175 3.175) (layer F.SilkS) (width 0.127))
+  (fp_line (start -3.175 3.175) (end -3.175 -3.175) (layer F.SilkS) (width 0.127))
+  (fp_poly
+    (pts
+      (xy -2.794 -5.9182)
+      (xy -1.778 -5.9182)
+      (xy -1.778 -3.175)
+      (xy -2.794 -3.175)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.778 -5.9182)
+      (xy 2.794 -5.9182)
+      (xy 2.794 -3.175)
+      (xy 1.778 -3.175)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.508 -4.064)
+      (xy 0.508 -4.064)
+      (xy 0.508 -3.175)
+      (xy -0.508 -3.175)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -2.54 3.175)
+      (xy 2.54 3.175)
+      (xy 2.54 4.191)
+      (xy -2.54 4.191)
+    ) (layer F.Fab) (width 0.01)
+  )
+)
