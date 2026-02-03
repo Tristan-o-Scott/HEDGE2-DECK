@@ -1,4 +1,4 @@
-27110457926422793
+27119307994681304
 4.7mF_Cap
 CAPC1005X65N
 
@@ -6,6 +6,20 @@ CAPC1005X65N
 0
 2
 2
+ADP7158ARDZ-3.3-R7
+SOIC127P600X175-9N
+
+
+0
+9
+9
+ADP7158ARDZ-3.3-R7-2
+SOIC127P600X175-9N
+
+
+0
+9
+9
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94639,6 +94653,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RBFSwitches
+PH1RA02UA
+PH1RA-02-UA-3
+Connector
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -98265,6 +98286,20 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SS-5GL111
+SS-5GL111
+
+
+0
+3
+3
+Schottky
+DPAK
+
+
+0
+3
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
