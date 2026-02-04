@@ -1,4 +1,4 @@
-27119307994681304
+27119307994679841
 4.7mF_Cap
 CAPC1005X65N
 
@@ -95955,13 +95955,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-Raspberry Pi Zero 2 W
-MODULE_SC1176
-
-
-0
-40
-40
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -98286,6 +98279,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SC1176
+MODULE_SC1176
+
+
+0
+40
+40
 SS-5GL111
 SS-5GL111
 
