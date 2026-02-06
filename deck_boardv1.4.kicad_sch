@@ -8564,7 +8564,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47 µF"
+		(property "Value" "47µF"
 			(at 63.5 88.8999 0)
 			(effects
 				(font
@@ -9048,7 +9048,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47 µF"
+		(property "Value" "47µF"
 			(at 130.81 87.6299 0)
 			(effects
 				(font
