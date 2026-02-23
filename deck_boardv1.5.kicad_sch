@@ -7369,7 +7369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.356 44.196 90)
 			(effects
 				(font
@@ -7503,7 +7503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.776 119.634 90)
 			(effects
 				(font
@@ -9124,7 +9124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.254 92.456 90)
 			(effects
 				(font
@@ -9482,7 +9482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.344 49.276 90)
 			(effects
 				(font
@@ -9551,7 +9551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.744 161.036 90)
 			(effects
 				(font
@@ -9748,7 +9748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.366 86.106 90)
 			(effects
 				(font
@@ -10907,7 +10907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.644 23.114 90)
 			(effects
 				(font
@@ -11301,7 +11301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.664 42.164 90)
 			(effects
 				(font
@@ -11718,7 +11718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 222.504 136.906 90)
 			(effects
 				(font
@@ -11917,7 +11917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.744 150.876 90)
 			(effects
 				(font
@@ -12345,7 +12345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.776 129.794 90)
 			(effects
 				(font
@@ -13086,7 +13086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "APZ1012470M100R:CAP_APZ_1012_KAV"
 			(at 47.9552 26.67 0)
 			(effects
 				(font
@@ -13288,7 +13288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.706 76.454 90)
 			(effects
 				(font
@@ -13355,7 +13355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.014 120.904 90)
 			(effects
 				(font
@@ -13786,7 +13786,7 @@
 			)
 		)
 		(instances
-			(project "deck_boardv1.4"
+			(project "deck_boardv1.5"
 				(path "/0dd6c749-d328-44a2-b3d4-206fc5899db9"
 					(page "2")
 				)

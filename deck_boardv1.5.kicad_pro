@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9,
-          "height": 2.8,
-          "width": 2.8
+          "drill": 1.0,
+          "height": 1.508,
+          "width": 1.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,36 +60,40 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_issues|73788889|95899721|2fed857d-6017-4095-863c-eed0da35ab5d|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_issues|156388889|98419721|2fed857d-6017-4095-863c-eed0da35ab5d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|109335000|57800000|0f5dd799-22ca-4234-b692-706e85236203|00000000-0000-0000-0000-000000000000",
-          "I made edits to the silkscreen, which is why this error appears."
-        ],
-        [
-          "lib_footprint_mismatch|116530000|81880000|08b11628-6d50-43fc-9f3c-81370dbd0054|00000000-0000-0000-0000-000000000000",
-          "This is coming up because I modified the footprint. "
-        ],
-        [
-          "lib_footprint_mismatch|62500000|84061500|fff16671-5303-44cb-9986-1e5195cb5834|00000000-0000-0000-0000-000000000000",
-          "This is coming up because I modified the footprint. "
-        ],
-        [
-          "lib_footprint_mismatch|65280000|67950000|20258de5-2d33-4f9d-bc8d-9542ec493883|00000000-0000-0000-0000-000000000000",
-          "I made edits to the silkscreen, which is why this error appears."
-        ],
-        [
-          "lib_footprint_mismatch|76250000|67751500|57770b59-5c2d-4e5d-bc2e-904add633ea6|00000000-0000-0000-0000-000000000000",
-          "I made edits to the silkscreen, which is why this error appears."
-        ],
-        [
-          "lib_footprint_mismatch|76750500|55747500|ac2fb19a-f21b-43c5-a907-da2085625e1f|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|111480000|80950000|20258de5-2d33-4f9d-bc8d-9542ec493883|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|178088728|58662969|09b6fba4-0414-4dd9-b245-686393f46777|00000000-0000-0000-0000-000000000000",
-          "This is fine."
+          "lib_footprint_mismatch|115692100|65550000|b2793ad4-d6f4-4884-8336-2c36741ce52f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|123050000|80911500|57770b59-5c2d-4e5d-bc2e-904add633ea6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|130886000|81001500|fff16671-5303-44cb-9986-1e5195cb5834|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|131475000|64675000|ac2fb19a-f21b-43c5-a907-da2085625e1f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|153420000|77200000|0f5dd799-22ca-4234-b692-706e85236203|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|153435000|82530000|bb53966e-bc1f-43df-9ca1-8cc0f8037308|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|184809000|64519000|09b6fba4-0414-4dd9-b245-686393f46777|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -512,7 +516,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "deck_boardv1.4.kicad_pro",
+    "filename": "deck_boardv1.5.kicad_pro",
     "version": 3
   },
   "net_settings": {
