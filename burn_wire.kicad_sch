@@ -1869,7 +1869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 109.22 49.53 0)
 			(effects
 				(font
