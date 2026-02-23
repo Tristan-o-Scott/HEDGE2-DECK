@@ -1,4 +1,4 @@
-27119307994679841
+27124623651752004
 4.7mF_Cap
 CAPC1005X65N
 
@@ -20,6 +20,27 @@ SOIC127P600X175-9N
 0
 9
 9
+APZ1012470M100R
+CAP_APZ_1012_KAV
+
+APZ1012470M100R 
+0
+2
+2
+APZ1012470M100R
+CAP_APZ_1012_KAV-L
+
+APZ1012470M100R 
+0
+2
+2
+APZ1012470M100R
+CAP_APZ_1012_KAV-M
+
+APZ1012470M100R 
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
