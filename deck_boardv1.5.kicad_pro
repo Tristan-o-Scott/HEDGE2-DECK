@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.55,
-          "width": 0.55
+          "drill": 1.0,
+          "height": 1.508,
+          "width": 1.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_issues|153288889|98269721|2fed857d-6017-4095-863c-eed0da35ab5d|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_issues|149048889|98239721|2fed857d-6017-4095-863c-eed0da35ab5d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -76,19 +76,23 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|166540000|98910000|fd407e90-2061-46fb-b60e-6f8583bf199e|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|153240000|81590000|bb53966e-bc1f-43df-9ca1-8cc0f8037308|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|171680000|98900000|f2f3e4d4-c48f-4699-8d05-d0cfb4ae5211|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|166550000|98830000|fd407e90-2061-46fb-b60e-6f8583bf199e|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|176810000|98900000|a0fe5a31-824d-4aba-a1d7-8875beee4352|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|171690000|98820000|f2f3e4d4-c48f-4699-8d05-d0cfb4ae5211|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|181950000|98890000|1cd07a38-889c-499c-a9ca-7e7880d781f2|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|176820000|98820000|a0fe5a31-824d-4aba-a1d7-8875beee4352|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|181960000|98810000|1cd07a38-889c-499c-a9ca-7e7880d781f2|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -162,7 +166,7 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.381,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.127,
