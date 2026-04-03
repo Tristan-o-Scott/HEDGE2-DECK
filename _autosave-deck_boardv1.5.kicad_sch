@@ -7570,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
+		(property "Footprint" "Library:0630CDMCCDS-100MC"
 			(at 99.06 40.64 0)
 			(effects
 				(font
